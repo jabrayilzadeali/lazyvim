@@ -12,3 +12,5 @@ vim.keymap.set("n", "<C-v>", "<C-v>", { silent = true })
 vim.keymap.set("v", "<C-v>", "<C-v>", { silent = true })
 
 vim.keymap.set("n", "-", "<CMD>Oil<CR>", { desc = "Open parent directory" })
+
+vim.keymap.set("n", "<leader>z", "<CMD>ZenMode<CR><CMD>echo 'zen mode'<CR>", { desc = "Zen Mode" })

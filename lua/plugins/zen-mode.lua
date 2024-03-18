@@ -12,12 +12,12 @@ return {
       -- * a percentage of the width / height of the editor when <= 1
       -- * a function that returns the width or the height
       width = 90, -- width of the zen window
-      height = 1, -- height of the zen window
+      -- height = 1, -- height of the zen window
       -- by default, no options are changed for the zen window
       -- uncomment any of the options below, or add other vim.wo options you want to apply
       options = {
         -- signcolumn = "no", -- disable signcolumn
-        -- number = false, -- disable number column
+        number = false, -- disable number column
         relativenumber = false, -- disable relative numbers
         -- cursorline = false, -- disable cursorline
         -- cursorcolumn = false, -- disable cursor column

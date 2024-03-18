@@ -13,9 +13,14 @@ vim.opt.guicursor = {
   "sm:block-blinkwait175-blinkoff150-blinkon175", -- Showmatch: block cursor with specific blinking settings
 }
 
+vim.opt.splitkeep = "screen"
 -- vim.opt.colorscheme = "tokyonight-moon"
 -- vim.cmd("colorscheme default")
---
+
+if vim.g.neovide then
+  -- Put anything you want to happen only in Neovide here
+  vim.g.neovide_unlink_border_highlights = true
+end
 
 -- https://stackoverflow.com/questions/2490227/how-does-vims-autoread-work
 -- Define a global variable to track if the update check has started

@@ -13,8 +13,10 @@ require("lazy").setup({
     -- import any extras modules here
     -- editor
     { import = "lazyvim.plugins.extras.editor.leap" },
-    { import = "lazyvim.plugins.extras.editor.navic" },
+    -- { import = "lazyvim.plugins.extras.editor.navic" },
     { import = "lazyvim.plugins.extras.editor.harpoon2" },
+    -- ui
+    -- { import = "lazyvim.plugins.extras.ui.edgy" },
     -- lang
     { import = "lazyvim.plugins.extras.lang.typescript" },
     { import = "lazyvim.plugins.extras.lang.tailwind" },
